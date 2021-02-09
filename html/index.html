@@ -5,9 +5,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.6/jstz.min.js"></script>
+
     </head>
     <body>
         <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+        
+        <div id="location" class="sub">
+            <h2>And you are in...</h2>
+            <div class="address"></div>
+        </div>
+
         <script src="js/localtime.js"></script>
+        <script src="js/location.js"></script>
+        
     </body>
 </html>
