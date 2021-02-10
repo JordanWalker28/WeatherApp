@@ -8,3 +8,13 @@
     letter-spacing: 5px;
 
 }
+
+.address{
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(13, 65, 77);
+    font-size: 1.8rem;
+    font-style: oblique;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}

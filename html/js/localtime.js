@@ -12,13 +12,22 @@ function showTime(){
         h = h - 12;
         session = "PM";
     }
-    
+
     h = (h < 10) ? "0" + h : h;
     m = (m < 10) ? "0" + m : m;
     
     var time = h + ":" + m + " " + session;
     document.getElementById("MyClockDisplay").innerText = time;
     document.getElementById("MyClockDisplay").textContent = time;
+
+    console.log(time)
+
+    if(h > 6 && session == "PM"){
+        console.log("night")
+        document.body.style.backgroundColor = "black";
+    }else{
+        document.body.style.backgroundColor = "white";
+    }
     
     setTimeout(showTime, 1000);
     
