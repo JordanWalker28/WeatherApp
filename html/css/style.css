@@ -18,3 +18,30 @@
     font-family: sans-serif;
     letter-spacing: 1px;
 }
+
+form {
+    margin: auto 0;
+    text-align: center;
+}
+ 
+  form input {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+  }
+  
+.search-container button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: red;
+    transition: background 0.3s ease-in-out;
+  }
+  
+.search-container button:hover {
+    background: #ccc;
+  }
