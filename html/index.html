@@ -21,17 +21,26 @@
         </div>
 
         <div class="centre">
-            <div class="search-container">
-                <form >
-                  <input type="text" placeholder="Search.." name="search">
-                  <button type="submit">Submit</button>
-                </form>
-              </div>
+            <section class="top-banner">
+                <div class="container">
+                  <h1 class="heading">Simple Weather App</h1>
+                  <form>
+                    <input type="text" placeholder="Search for a city" autofocus>
+                    <button type="submit">SUBMIT</button>
+                    <span class="msg"></span>
+                  </form>
+                </div>
+              </section>
+              <section class="ajax-section">
+                <div class="container">
+                  <ul class="cities"></ul>
+                </div>
+              </section>
         </div>
 
         <script src="js/localtime.js"></script>
         <script src="js/location.js"></script>
-        <script src="js/style.js"></script>
+        <script src="js/search.js"></script>
         
     </body>
 </html>
