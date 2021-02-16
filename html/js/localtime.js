@@ -21,7 +21,6 @@ function showTime(){
     document.getElementById("MyClockDisplay").textContent = time;
 
     if(h > 6 && session == "PM"){
-        console.log("night")
         document.body.style.backgroundColor = "black";
     }else{
         document.body.style.backgroundColor = "white";

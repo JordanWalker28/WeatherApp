@@ -19,6 +19,13 @@
     letter-spacing: 1px;
 }
 
+.centre {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
 :root {
   --bg_main: #0a1f44;
   --text_light: #fff;
@@ -81,11 +88,18 @@ body {
   padding: 0 15px;
 }
 
+.top {
+  margin-bottom: 3rem;
+}
 
 /* SECTION #1
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .top-banner {
   color: var(--text_light);
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
 }
 
 .heading {
