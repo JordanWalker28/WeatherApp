@@ -19,12 +19,6 @@ function showTime(){
     var time = h + ":" + m + " " + session;
     document.getElementById("MyClockDisplay").innerText = time;
     document.getElementById("MyClockDisplay").textContent = time;
-
-    if(h > 6 && session == "PM"){
-        document.body.style.backgroundColor = "black";
-    }else{
-        document.body.style.backgroundColor = "white";
-    }
     
     setTimeout(showTime, 1000);
     
