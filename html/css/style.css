@@ -79,6 +79,7 @@ body {
   background: black;
   color: var(--text_dark);
   padding: 50px;
+  background-size: cover;
 }
 
 
