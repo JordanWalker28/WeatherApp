@@ -57,8 +57,10 @@ form.addEventListener("submit", e => {
 });
 
 function convertToDateTimeStamp(dateStamp,timezone) {
+
     dateStamp += timezone;
     var date = new Date(dateStamp * 1000);
+    console.log(date);
 
     var hours = date.getHours();
     var minutes = date.getMinutes();

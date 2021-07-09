@@ -86,8 +86,9 @@ body {
 .container {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
   padding: 0 15px;
+  text-align: center;
+  
 }
 
 .top {
@@ -264,6 +265,7 @@ body {
 @media screen and (max-width: 500px) {
   body {
     padding: 15px;
+    background-size: auto;
   }
   
   .ajax-section .cities {
