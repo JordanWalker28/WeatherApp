@@ -27,12 +27,13 @@ form.addEventListener("submit", e => {
       const li = document.createElement("li");
       li.classList.add("city");
       const markup = `
+        <img src="https://www.countryflags.io/${sys.country}/flat/64.png">
+
         <h2 class="city-name" data-name="${name},${sys.country}">
           <span>${name}</span>
-          <sup>${sys.country}</sup>
-          <h5>Localtime: ${countryLocalTime}</h5>
-          <img src="https://www.countryflags.io/${sys.country}/flat/64.png">
+          <sup>${sys.country}</sup>          
         </h2>
+          <h5>Localtime: ${countryLocalTime}</h5>
         <div class="city-temp">${Math.round(main.temp)}<sup>°C</sup></div>
         <div class="times">        
             <span>Sunrise: ${sunrise}</span><br>

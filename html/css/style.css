@@ -42,7 +42,7 @@ a {
 }
 
 * {
-  margin: 0;
+  margin: auto;
   padding: 0;
   box-sizing: border-box;
   font-weight: normal;
@@ -65,9 +65,6 @@ input {
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 ul {
@@ -162,7 +159,7 @@ body {
 .ajax-section .cities {
   display: grid;
   grid-gap: 32px 20px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .ajax-section .city {
@@ -171,6 +168,7 @@ body {
   border-radius: 20px;
   background: var(--text_light);
   color: var(--text_med);
+  min-width: 214px;
 }
 
 .ajax-section .city::after {
@@ -193,7 +191,7 @@ body {
 }
 
 .ajax-section .city-temp {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
   margin-top: 10px;
   color: var(--text_dark);

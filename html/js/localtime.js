@@ -20,7 +20,7 @@ function showTime(){
     document.getElementById("MyClockDisplay").innerText = time;
     document.getElementById("MyClockDisplay").textContent = time;
     
-    if((h > 7) && session == "PM"){
+    if((h >= 7) && session == "PM"){
         document.body.style.backgroundImage = "url('img/unnamed.png')";
         document.body.style.background = "repeat: no-repeat;";
         document.body.style.background = "size: 100% ";
